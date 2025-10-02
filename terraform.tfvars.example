@@ -1,0 +1,5 @@
+cluster_name       = "local-dev"
+additional_workers = 2
+enable_ingress     = true
+enable_metrics     = true
+enable_argocd      = false

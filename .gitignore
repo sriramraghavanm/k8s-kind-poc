@@ -1,0 +1,15 @@
+# Terraform directories & files
+.terraform/
+.state/              # (if you use a dot-prefixed variant)
+state/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+.crash
+*.log
+
+# Local kubeconfigs
+kubeconfig_*
+
+# Shell exports
+export_*_kubeconfig.sh

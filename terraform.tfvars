@@ -1,0 +1,21 @@
+cluster_name       = "local-dev"
+additional_workers = 2
+enable_ingress     = true
+enable_metrics     = false
+enable_argocd      = false
+tags = {
+  appclass       = "vital",
+  appid          = "1540",
+  appname        = "digital",
+  appowner       = "fname.lname@brand.com",
+  businessunit   = "cex",
+  canumber       = "notset",
+  compliance     = "none",
+  costcenter     = "657.3456.1234",
+  dataclass      = "restricted",
+  env            = "dev",
+  otl            = "177301",
+  pii            = "true",
+  sharedservices = "yes",
+  triageticket   = "ceng-1234"
+}
