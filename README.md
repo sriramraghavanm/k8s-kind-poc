@@ -72,8 +72,7 @@ terraform destroy
 │       ├── main.tf
 │       ├── variables.tf
 │       └── outputs.tf
-└── scripts
-    └── README.md (future: helper scripts)
+└── README.md
 ```
 
 ---
@@ -143,6 +142,6 @@ Local cluster is ephemeral. If you add persistence (e.g., hostPath volumes) reme
 
 ## License
 
-MIT (suggested) – pick what suits your repository.
+MIT License
 
 ---
